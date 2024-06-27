@@ -5,10 +5,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class DemoController {
+public class DockerController {
 
 
-    @GetMapping("/api")
+    @GetMapping("/docker")
     public String getDemo(){
 
         return "Demo for springboot and docker";
